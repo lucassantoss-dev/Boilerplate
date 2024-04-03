@@ -1,0 +1,43 @@
+.content {
+    height: calc(94vh - 20px);
+    border-radius: 10px;
+    margin: 6px;
+    margin-left: 6px;
+    padding: 6px;
+    overflow: auto;
+    background-color: #f0f0f0;
+}
+
+.example-spacer {
+    flex: 1 1 auto;
+  }
+
+.toolbar {
+    color: aliceblue;
+    background-color: #22506C;
+}
+
+mat-toolbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+    background-color: #22506C;
+}
+
+.drawer {
+    color: white;
+    background-color: #22506C;
+    box-shadow: #F5F7FA;
+    border-radius: 1.4px;
+    border: 1px solid rgb(51, 51, 51);
+}
+
+mat-list-item button {
+    font-size: 16px;
+    color: #F5F7FA;
+}
+
+.item-button {
+    margin-top: 12px;
+}

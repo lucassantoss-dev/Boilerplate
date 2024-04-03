@@ -1,0 +1,43 @@
+<div class="container-login col-12">
+    <div class="row col-12 d-flex">
+        <div class="col-6 background-hero"></div>
+
+        <div class="col-6 d-flex justify-content-center align-items-center">
+            <mat-card class="card-login">
+                <mat-card-content>
+                    <form [formGroup]="form">
+                        <div class=" container-login-form">
+                            <div class="flex-column align-items-center justify-content-center text-center">
+                                <h2 class="subtitle-marketplace">NOVATEC</h2>
+                            </div>
+                            <div class="content-login">
+                                <div class="form-group">
+                                    <label for="email">E-mail:</label>
+                                    <input type="email" class="form-control email" formControlName="email" id="email"
+                                        placeholder="Digite o seu e-mail" />
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="email">Senha:</label>
+                                    <input type="password" formControlName="password" class="form-control" id="password"
+                                        placeholder="Digite a sua senha" />
+                                </div>
+
+                                <div class="recuperar-senha">
+                                    <a href="#">Esqueceu a senha?</a>
+                                </div>
+
+                                <div class="buttons">
+                                    <button mat-raised-button class="button-login"
+                                        (click)="handleLogin()">Entrar
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </mat-card-content>
+            </mat-card>
+
+        </div>
+    </div>
+</div>
